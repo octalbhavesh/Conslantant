@@ -1,0 +1,173 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:background="@color/colorHeader"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3">
+
+                        <ImageView
+                            android:id="@+id/iv_availability_back"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_left_back_arrow" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.6">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Availability"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/_15sdp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Chat"
+                        android:layout_weight="1.6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <Switch
+                        android:id="@+id/switch_chat"
+                        style="@style/SCBSwitch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:checked="true"
+                        android:layout_weight="0.3"
+                        android:theme="@style/SCBSwitch" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_2sdp"
+                    android:src="#333333"
+                    android:layout_margin="@dimen/_5sdp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Audio Call"
+                        android:layout_weight="1.6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <Switch
+                        android:id="@+id/switch_audio"
+                        style="@style/SCBSwitch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:checked="true"
+                        android:layout_weight="0.3"
+                        android:theme="@style/SCBSwitch" />
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_2sdp"
+                    android:src="#333333"
+                    android:layout_margin="@dimen/_5sdp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Video Call"
+                        android:layout_weight="1.6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_15sdp" />
+
+                    <Switch
+                        android:id="@+id/switch_video"
+                        style="@style/SCBSwitch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:checked="true"
+                        android:layout_weight="0.3"
+                        android:theme="@style/SCBSwitch" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</layout>

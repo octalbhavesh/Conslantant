@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577879639581",
+    "firebase_url": "https://sageconslantant.firebaseio.com",
+    "project_id": "sageconslantant",
+    "storage_bucket": "sageconslantant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577879639581:android:82971f686d02d6c9",
+        "android_client_info": {
+          "package_name": "com.sage.conslantant.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577879639581-2ck8t18s9u9odmnre079p9lah1q31342.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sage.conslantant.android",
+            "certificate_hash": "cfce5c38aeedd5cc8e0c186e4d728be6f6a5fc67"
+          }
+        },
+        {
+          "client_id": "577879639581-r50nocqin0hs6dd2qr8nlannm6f0lrji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuM-iUkCDl7VUFplxs4tSazqH21DIiOk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577879639581-r50nocqin0hs6dd2qr8nlannm6f0lrji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

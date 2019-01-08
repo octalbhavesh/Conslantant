@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_border_logout"
+        android:orientation="vertical"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/dialog_twoaction_descss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="15dp"
+            android:typeface="sans" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_yes"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/yes"
+                android:textColor="@color/colorAccent"
+                android:textSize="16dp"
+                android:typeface="normal" />
+
+            <View
+                android:id="@+id/sap"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/dialog_no"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/no"
+                android:textColor="@color/colorAccent"
+                android:textSize="16dp"
+                android:typeface="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

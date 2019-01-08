@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Sage Conslantant</string>
+    <string name="next">Next</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="skip">Skip</string>
+    <string name="sign_to_sage">Sign in to Sage</string>
+    <string name="sign_up_to_sage">Sign up to Sage</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="txt_remember_me">Remember Me</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="verify">Verify</string>
+    <string name="verify_your_mobile_number">Verify your mobile number</string>
+    <string name="otp_description">Enter the pin you have received via sms on</string>
+    <string name="otp_message_one">Please enter the correct OTP or click on</string>
+    <string name="timer_message">Resend code in</string>
+    <string name="title_activity_home_activiy">HomeActiviy</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="browse_categories">Dashboard</string>
+    <string name="requests">Requests</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="hint_rating">Create a note on this user here to review later</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rating">Rating</string>
+    <string name="my_wallet">My wallet</string>
+    <string name="help">Help/FAQ</string>
+    <string name="contact_us">Contact us</string>
+    <string name="about_us">About us</string>
+    <string name="logout">Logout</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="chat">Chat</string>
+
+    <string name="new1">New</string>
+    <string name="ongoing">Ongoing</string>
+
+    <string name="voice">Voice</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="messages">Messages</string>
+    <string name="submit">Submit</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_contact">Contact</string>
+    <string name="hint_message">Message</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="enter_valid_otp">Enter valid otp</string>
+    <string name="select_source">Select Source</string>
+    <string name="password_does_not_match">Both password are not same</string>
+    <string name="loginRegister">Login/Register</string>
+    <string name="no_data_found">No data found</string>
+    <string name="sinchKey">68b5aab7-b7ee-4d11-aaaa-635918eebfb8</string>
+    <string name="sinchSecretKey">mOgkSjhYZUmCKTxj5x15Pg==</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+</resources>

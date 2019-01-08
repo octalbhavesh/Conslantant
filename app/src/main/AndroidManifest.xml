@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sage.conslantant.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.octalsoftaware.sage.SageSeekerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.octalsoftaware.sage.view.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.octalsoftaware.sage.sinch.SinchService" />
+        <service android:name="com.octalsoftaware.sage.fcm.FCMCallbackService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.octalsoftaware.sage.fcm.FCMInitializationService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.octalsoftaware.sage.view.activity.BaseActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.IntroActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.LoginActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.RegisterOneActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.RegisterTwoActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.OtpActivity" />
+        <activity
+            android:name="com.octalsoftaware.sage.view.activity.HomeActiviy"
+            android:label="@string/title_activity_home_activiy"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.ChatListingActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.VideoCallingActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.ChatDetailActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.ConslantantDetailActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.AllReviewsActivity" />
+        <activity android:name="com.octalsoftaware.sage.view.activity.AvailabilityActivity"></activity>
+    </application>
+
+</manifest>
